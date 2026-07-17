@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio | Dushyanth Gowda</title>
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <!---open graph meta tags for social media sharing--->
+    <meta property="og:title" content="my portfolio | Dushyanth Gowda">
+    <meta property="og:description" content="web developer passionate about creating beautiful and functional websites">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content=[Your portfolio URL]>
+    <!---twitter card meta tags --->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="my portfolio | Dushyanth Gowda">
+    <meta name="twitter:description" content="web developer passionate about creating beautiful and functional websites">
+    <meta name="twitter:image" content="images/profile.jpg">
+</head>
+<body>
+    <!--header+navigator-->
+    <header class ="site-header">
+        <nav class="navbar">
+            <div class="logo">Dushyanth Gowda</div>
+            <ul class="nav-links">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!---for dark mode --->
+            <button class="dark-mode-toggle" title="Toggle Dark Mode" aria-label="Toggle Dark Mode">☾</button>
+
+            <!---mobile menu-->
+            <button class="menu Toggle" title="Toggle Menu" aria-label="Toggle Navigation" aria-expanded="false" >
+                ☰
+            </button>
+        </nav>       
+    </header>
+    <!---Main content-->
+    <main>
+        <!---Hero section--->
+        <section class="hero-section" id="hero">
+            <h1>Hi, <span class="highlight">I'm Dushyanth Gowda</span></h1>
+            <p class = "Tag Line"> I'm a web developer passionate about creating beautiful and functional websites.</p>
+            <div>
+                <a href="" class="btn btn-primary">View my work</a>
+                <a href="" class="btn">Contact Me</a>
+            </div>
+        </section>
+
+        <!---About section--->
+        <section class="about-section" id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <figure class="profile-picture">
+                    <img src="images/profile copy.jpg" alt="Dushyanth's Profile Picture" width="100" height="100">
+                    <figcaption>Web Developer</figcaption>
+                </figure>
+                <div>
+                    <p>I'am a passonate Web Developer...</p>
+                </div>
+            </div>
+            <section id="skill" class="skills-section">
+                <h2>My Skills</h2>
+                <div class="skill grid">
+                    <div class="skill-item"> HTML</div>
+                    <div class="skill-item"> CSS</div>
+                    <div class="skill-item"> JavaScript</div>
+                    <div class="skill-item"> React</div>
+
+                </div>
+                
+
+            </section>
+
+        <!---Projects section--->
+        <section class="projects-section" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <artcle>
+                    <img src="https://old.openweathermap.org/themes/openweathermap/assets/img/pricing/new_landing1.png" alt="open weather API" width="100" height="100">
+                    <h3>Weather App</h3>
+                    <p>Real-time weather dashboard using OpenWeather API</p>
+                    <div class="project tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <a href="" class="btn">Live Demo</a>
+                    <a href="" class="btn">GitHub</a>
+                </artcle>
+
+        <!---contact section--->
+        <section class="contact-section" id="contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" action="" method="POSt">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+        <!---footer section--->    
+        <section class="footer-section">
+            <p>&copy <span class="footer year"> </span>Dushyanth Gowda.
+            Build with HTML, CSS, and JavaScript</p>
+
+            <nav arial-label="Social links">
+                    <a href="">GitHub</a>
+                    <a href="">LinkedIn</a>
+                </nav>
+    </main>
+</body>
+</html>
